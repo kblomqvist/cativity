@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-24 BZR 5221)-product   date = Thu Feb 19 21:06:05 2015
+Cmp-Mod V01 Created by Cvpcb (2014-10-24 BZR 5221)-product   date = Thu Feb 19 21:49:22 2015
 
 BeginCmp
 TimeStamp = /54E62225;
@@ -190,17 +190,17 @@ IdModule  = project:Silabs-DFN-6_(3.00x3.00);
 EndCmp
 
 BeginCmp
-TimeStamp = /54E526FF;
+TimeStamp = /54E6667C;
 Reference = X1;
 ValeurCmp = 16MHz;
-IdModule  = ;
+IdModule  = project:Abracon-ABM10;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E52F8B;
 Reference = X2;
 ValeurCmp = 32.768kHz;
-IdModule  = ;
+IdModule  = project:Abracon-ABS06;
 EndCmp
 
 EndListe
