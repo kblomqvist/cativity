@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-24 BZR 5221)-product   date = Thu Feb 19 21:49:22 2015
+Cmp-Mod V01 Created by Cvpcb (2014-10-24 BZR 5221)-product   date = Thu Feb 19 22:03:07 2015
 
 BeginCmp
 TimeStamp = /54E62225;
 Reference = BT1;
 ValeurCmp = BATTERY;
-IdModule  = project:Keystone-3007;
+IdModule  = project:Keystone-3003;
 EndCmp
 
 BeginCmp
