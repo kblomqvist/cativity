@@ -1,0 +1,206 @@
+Cmp-Mod V01 Created by Cvpcb (2014-10-24 BZR 5221)-product   date = Thu Feb 19 21:06:05 2015
+
+BeginCmp
+TimeStamp = /54E62225;
+Reference = BT1;
+ValeurCmp = BATTERY;
+IdModule  = project:Keystone-3007;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4FD79;
+Reference = C1;
+ValeurCmp = 2u2;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E5282E;
+Reference = C2;
+ValeurCmp = 12p;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E528BD;
+Reference = C3;
+ValeurCmp = 12p;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E52F91;
+Reference = C4;
+ValeurCmp = 12p;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E52F97;
+Reference = C5;
+ValeurCmp = 12p;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E51ED7;
+Reference = C6;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E52011;
+Reference = C7;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E5245F;
+Reference = C8;
+ValeurCmp = 1n;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E5203A;
+Reference = C9;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E500A4;
+Reference = C10;
+ValeurCmp = 2u2;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E52118;
+Reference = C11;
+ValeurCmp = 47n;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E516C7;
+Reference = C12;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E50761;
+Reference = C13;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E51678;
+Reference = C14;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E506AF;
+Reference = C15;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E53876;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4FE86;
+Reference = L1;
+ValeurCmp = INDUCTOR_SMALL;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E53621;
+Reference = P1;
+ValeurCmp = CONN_02X05;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E62B02;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E50FDF;
+Reference = R2;
+ValeurCmp = 4k7;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E50D7D;
+Reference = R3;
+ValeurCmp = 4k7;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4FBFA;
+Reference = U1;
+ValeurCmp = TPS62732;
+IdModule  = project:TI-USON-6_(1.45x1.00);
+EndCmp
+
+BeginCmp
+TimeStamp = /54E3ACD1;
+Reference = U2;
+ValeurCmp = nRF51822;
+IdModule  = project:NordicSemi-QFN-48_(6.00x6.00);
+EndCmp
+
+BeginCmp
+TimeStamp = /54E61B6A;
+Reference = U3;
+ValeurCmp = SST25WF040B;
+IdModule  = project:Microchip-USON-8_(2.00x3.00);
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4F128;
+Reference = U4;
+ValeurCmp = BMA280;
+IdModule  = project:Bosch-LGA-12_(2.00x2.00);
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4F2ED;
+Reference = U5;
+ValeurCmp = SI7053;
+IdModule  = project:Silabs-DFN-6_(3.00x3.00);
+EndCmp
+
+BeginCmp
+TimeStamp = /54E526FF;
+Reference = X1;
+ValeurCmp = 16MHz;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E52F8B;
+Reference = X2;
+ValeurCmp = 32.768kHz;
+IdModule  = ;
+EndCmp
+
+EndListe

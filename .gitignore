@@ -32,6 +32,8 @@
 hw/kicad/*.bak
 hw/kicad/*-cache.lib
 hw/kicad/*.net
+hw/kicad/*kicad_pcb-bak
+hw/kicad/$*
 
 # SW build files
 sw/build/
