@@ -1,4 +1,11 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-24 BZR 5221)-product   date = Thu Feb 19 22:03:07 2015
+Cmp-Mod V01 Created by Cvpcb (2014-10-24 BZR 5221)-product   date = Fri Feb 20 20:31:20 2015
+
+BeginCmp
+TimeStamp = /54E7762F;
+Reference = A1;
+ValeurCmp = ANTENNA;
+IdModule  = project:AntennaFactor-ANT-2.4-CHP;
+EndCmp
 
 BeginCmp
 TimeStamp = /54E62225;
@@ -113,6 +120,20 @@ IdModule  = Capacitors_SMD:C_0402;
 EndCmp
 
 BeginCmp
+TimeStamp = /54E77BA4;
+Reference = C16;
+ValeurCmp = DNP;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E77EEF;
+Reference = C17;
+ValeurCmp = DNP;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
 TimeStamp = /54E53876;
 Reference = D1;
 ValeurCmp = LED;
@@ -123,7 +144,7 @@ BeginCmp
 TimeStamp = /54E4FE86;
 Reference = L1;
 ValeurCmp = INDUCTOR_SMALL;
-IdModule  = ;
+IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
@@ -187,6 +208,13 @@ TimeStamp = /54E4F2ED;
 Reference = U5;
 ValeurCmp = SI7053;
 IdModule  = project:Silabs-DFN-6_(3.00x3.00);
+EndCmp
+
+BeginCmp
+TimeStamp = /54E776F2;
+Reference = U6;
+ValeurCmp = BAL-NRF01D3;
+IdModule  = project:ST-BGA-5_(1.50x1.00);
 EndCmp
 
 BeginCmp

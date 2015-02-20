@@ -92,12 +92,12 @@ $EndComp
 $Comp
 L GND #PWR01
 U 1 1 54E4FD2B
-P 3900 7200
-F 0 "#PWR01" H 3900 7200 30  0001 C CNN
-F 1 "GND" H 3900 7130 30  0001 C CNN
-F 2 "" H 3900 7200 60  0000 C CNN
-F 3 "" H 3900 7200 60  0000 C CNN
-	1    3900 7200
+P 3900 7250
+F 0 "#PWR01" H 3900 7250 30  0001 C CNN
+F 1 "GND" H 3900 7180 30  0001 C CNN
+F 2 "" H 3900 7250 60  0000 C CNN
+F 3 "" H 3900 7250 60  0000 C CNN
+	1    3900 7250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -150,7 +150,7 @@ U 1 1 54E4FE86
 P 3450 6750
 F 0 "L1" H 3450 6850 50  0000 C CNN
 F 1 "INDUCTOR_SMALL" H 3450 6700 50  0000 C CNN
-F 2 "" H 3450 6750 60  0001 C CNN
+F 2 "Resistors_SMD:R_0805" H 3450 6750 60  0001 C CNN
 F 3 "" H 3450 6750 60  0000 C CNN
 	1    3450 6750
 	1    0    0    -1  
@@ -158,12 +158,12 @@ $EndComp
 $Comp
 L C C10
 U 1 1 54E500A4
-P 3900 6950
-F 0 "C10" H 3900 7050 40  0000 L CNN
-F 1 "2u2" H 3906 6865 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3938 6800 30  0001 C CNN
-F 3 "" H 3900 6950 60  0000 C CNN
-	1    3900 6950
+P 3900 7000
+F 0 "C10" H 3900 7100 40  0000 L CNN
+F 1 "2u2" H 3906 6915 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3938 6850 30  0001 C CNN
+F 3 "" H 3900 7000 60  0000 C CNN
+	1    3900 7000
 	1    0    0    -1  
 $EndComp
 Text GLabel 8850 2100 0    47   Input ~ 0
@@ -355,25 +355,25 @@ F 3 "" H 10450 4000 60  0000 C CNN
 	1    10450 4000
 	1    0    0    -1  
 $EndComp
-Text GLabel 6900 2200 2    47   Input ~ 0
+Text GLabel 6450 4050 2    47   Input ~ 0
 spi0_cs_n
-Text GLabel 6900 2300 2    47   Input ~ 0
+Text GLabel 6450 4350 2    47   Input ~ 0
 spi0_sck
-Text GLabel 6900 2400 2    47   Input ~ 0
+Text GLabel 6450 4250 2    47   Input ~ 0
 spi0_mosi
-Text GLabel 6900 2500 2    47   Input ~ 0
+Text GLabel 6450 4150 2    47   Input ~ 0
 spi0_miso
-Text GLabel 6900 3800 2    47   Input ~ 0
+Text GLabel 6600 1950 2    47   Input ~ 0
 acc_int1
-Text GLabel 6900 3900 2    47   Input ~ 0
+Text GLabel 6600 1850 2    47   Input ~ 0
 acc_int2
-Text GLabel 6900 3150 2    47   Input ~ 0
+Text GLabel 6600 4750 2    47   Input ~ 0
 spi1_cs_n
-Text GLabel 6900 3250 2    47   Input ~ 0
+Text GLabel 6600 2450 2    47   Input ~ 0
 spi1_sck
-Text GLabel 6900 3350 2    47   Input ~ 0
+Text GLabel 6600 2250 2    47   Input ~ 0
 spi1_mosi
-Text GLabel 6900 3450 2    47   Input ~ 0
+Text GLabel 6600 2350 2    47   Input ~ 0
 spi1_miso
 NoConn ~ 4350 4550
 $Comp
@@ -516,7 +516,7 @@ U 1 1 54E52F8B
 P 3100 2550
 F 0 "X2" H 3100 2700 60  0000 C CNN
 F 1 "32.768kHz" H 3100 2400 60  0000 C CNN
-F 2 "" H 3100 2550 60  0001 C CNN
+F 2 "project:Abracon-ABS06" H 3100 2550 60  0001 C CNN
 F 3 "" H 3100 2550 60  0000 C CNN
 	1    3100 2550
 	0    1    1    0   
@@ -616,7 +616,7 @@ Wire Wire Line
 	3700 6750 4000 6750
 Connection ~ 3800 6750
 Wire Wire Line
-	3900 7200 3900 7150
+	3900 7250 3900 7200
 Wire Wire Line
 	1400 6850 1400 7200
 Wire Wire Line
@@ -829,7 +829,7 @@ U 1 1 54E62225
 P 800 7000
 F 0 "BT1" H 800 7200 50  0000 C CNN
 F 1 "BATTERY" H 800 6810 50  0000 C CNN
-F 2 "project:Keystone-3007" H 800 7000 60  0001 C CNN
+F 2 "project:Keystone-3003" H 800 7000 60  0001 C CNN
 F 3 "" H 800 7000 60  0000 C CNN
 	1    800  7000
 	0    1    1    0   
@@ -877,12 +877,12 @@ Text GLabel 6900 4100 2    47   Input ~ 0
 Text Notes 7700 4750 0    39   ~ 0
 Is it safe to use BAT here?
 $Comp
-L XTAL-4 X?
+L XTAL-4 X1
 U 1 1 54E6667C
 P 3100 1650
-F 0 "X?" H 3100 1900 39  0000 C CNN
-F 1 "XTAL-4" H 3100 1800 39  0000 C CNN
-F 2 "" H 3100 1650 39  0000 C CNN
+F 0 "X1" H 3100 1900 39  0000 C CNN
+F 1 "16MHz" H 3100 1800 39  0000 C CNN
+F 2 "project:Abracon-ABM10" H 3100 1650 39  0001 C CNN
 F 3 "" H 3100 1650 39  0000 C CNN
 	1    3100 1650
 	0    1    1    0   
@@ -901,4 +901,128 @@ Wire Wire Line
 Wire Wire Line
 	2800 1900 2800 1950
 Connection ~ 2800 1950
+$Comp
+L ANTENNA A1
+U 1 1 54E7762F
+P 1100 3200
+F 0 "A1" H 1250 3150 39  0000 C CNN
+F 1 "ANTENNA" H 1250 3050 39  0000 C CNN
+F 2 "project:AntennaFactor-ANT-2.4-CHP" H 1100 3200 39  0001 C CNN
+F 3 "" H 1100 3200 39  0000 C CNN
+	1    1100 3200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BAL-NRF01D3 U6
+U 1 1 54E776F2
+P 2050 3200
+F 0 "U6" H 2050 3400 39  0000 C CNN
+F 1 "BAL-NRF01D3" H 2050 2850 39  0000 C CNN
+F 2 "project:ST-BGA-5_(1.50x1.00)" H 2050 3200 39  0001 C CNN
+F 3 "" H 2050 3200 39  0000 C CNN
+	1    2050 3200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR021
+U 1 1 54E777A7
+P 1600 3600
+F 0 "#PWR021" H 1600 3600 30  0001 C CNN
+F 1 "GND" H 1600 3530 30  0001 C CNN
+F 2 "" H 1600 3600 60  0000 C CNN
+F 3 "" H 1600 3600 60  0000 C CNN
+	1    1600 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 3600 1600 3400
+Wire Wire Line
+	1600 3400 1650 3400
+Wire Wire Line
+	1300 3200 1650 3200
+Wire Wire Line
+	2450 3150 4350 3150
+Wire Wire Line
+	4350 3250 2450 3250
+Wire Wire Line
+	4350 3350 2450 3350
+Wire Wire Line
+	2450 3350 2450 3400
+$Comp
+L Csmall C16
+U 1 1 54E77BA4
+P 1450 3350
+F 0 "C16" H 1475 3400 30  0000 L CNN
+F 1 "DNP" H 1475 3300 30  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 1450 3350 60  0001 C CNN
+F 3 "" H 1450 3350 60  0000 C CNN
+	1    1450 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 3250 1450 3200
+Connection ~ 1450 3200
+Wire Wire Line
+	1450 3450 1450 3500
+Wire Wire Line
+	1450 3500 1600 3500
+Connection ~ 1600 3500
+$Comp
+L Csmall C17
+U 1 1 54E77EEF
+P 2650 3500
+F 0 "C17" H 2675 3550 30  0000 L CNN
+F 1 "DNP" H 2675 3450 30  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 2650 3500 60  0001 C CNN
+F 3 "" H 2650 3500 60  0000 C CNN
+	1    2650 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 3400 2650 3350
+Connection ~ 2650 3350
+$Comp
+L GND #PWR022
+U 1 1 54E78011
+P 2650 3650
+F 0 "#PWR022" H 2650 3650 30  0001 C CNN
+F 1 "GND" H 2650 3580 30  0001 C CNN
+F 2 "" H 2650 3650 60  0000 C CNN
+F 3 "" H 2650 3650 60  0000 C CNN
+	1    2650 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 3650 2650 3600
+Wire Wire Line
+	3900 6800 3900 6750
+Connection ~ 3900 6750
+Wire Wire Line
+	6450 4350 6350 4350
+Wire Wire Line
+	6350 4250 6450 4250
+Wire Wire Line
+	6450 4150 6350 4150
+Wire Wire Line
+	6350 4050 6450 4050
+Wire Wire Line
+	6350 4750 6600 4750
+Wire Wire Line
+	6600 1850 6350 1850
+Wire Wire Line
+	6350 1950 6600 1950
+Wire Wire Line
+	6350 2250 6600 2250
+Wire Wire Line
+	6350 2350 6600 2350
+Wire Wire Line
+	6350 2450 6600 2450
+Text GLabel 6700 2750 2    47   Input ~ 0
+twi_scl
+Text GLabel 6700 2650 2    47   Input ~ 0
+twi_sda
+Wire Wire Line
+	6700 2650 6350 2650
+Wire Wire Line
+	6700 2750 6350 2750
 $EndSCHEMATC
