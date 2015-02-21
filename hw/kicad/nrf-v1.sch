@@ -1017,12 +1017,12 @@ Wire Wire Line
 	6350 2350 6600 2350
 Wire Wire Line
 	6350 2450 6600 2450
-Text GLabel 6700 2750 2    47   Input ~ 0
+Text GLabel 6700 3650 2    47   Input ~ 0
 twi_scl
-Text GLabel 6700 2650 2    47   Input ~ 0
+Text GLabel 6700 3550 2    47   Input ~ 0
 twi_sda
 Wire Wire Line
-	6700 2650 6350 2650
+	6700 3550 6350 3550
 Wire Wire Line
-	6700 2750 6350 2750
+	6700 3650 6350 3650
 $EndSCHEMATC
