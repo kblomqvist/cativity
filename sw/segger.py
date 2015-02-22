@@ -53,7 +53,7 @@ def flash(program):
 	if os.environ["USE_SOFTDEVICE"] == "blank":
 		addr = hex(0)
 	else:
-		addr = hex(0x00014000)
+		addr = hex(0x00016000)
 
 	script_name = "flash.jlink"
 	content = read_script_file(script_name).format(program=program, addr=addr)

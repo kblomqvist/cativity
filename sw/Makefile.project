@@ -2,8 +2,8 @@
 # DEPENDENCIES
 ###############################################################################
 
-NRF51_SDK_PATH		= ./nrf51/sdk
-NRF51_SOFTDEVICE	= ./nrf/s110/s110_nrf51822_7.1.0_softdevice.hex
+NRF51_SDK_PATH		= nrf51/sdk
+NRF51_SOFTDEVICE	= nrf51/s110/s110_nrf51822_7.1.0_softdevice.hex
 JLINK_PATH			= /usr/bin
 
 ###############################################################################
@@ -21,5 +21,5 @@ USE_SOFTDEVICE	= s110
 
 PROJECT_TARGET			= cativity
 
-PROJECT_C_SOURCE_PATHS	= src $(SDK_SOURCE_PATH)/nrf_delay
+PROJECT_C_SOURCE_PATHS	= src $(SDK_COMPONENTS_PATH)/drivers_nrf/hal
 PROJECT_C_SOURCE_FILES	= main.c nrf_delay.c
