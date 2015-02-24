@@ -191,17 +191,6 @@ twi_scl
 Text GLabel 9150 6150 0    47   Input ~ 0
 twi_sda
 $Comp
-L Csmall C15
-U 1 1 54E506AF
-P 10650 6150
-F 0 "C15" H 10675 6200 30  0000 L CNN
-F 1 "100n" H 10675 6100 30  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 10650 6150 60  0001 C CNN
-F 3 "" H 10650 6150 60  0000 C CNN
-	1    10650 6150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Csmall C13
 U 1 1 54E50761
 P 10650 2250
@@ -312,17 +301,6 @@ F 3 "" H 10650 2450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Csmall C14
-U 1 1 54E51678
-P 10650 4000
-F 0 "C14" H 10675 4050 30  0000 L CNN
-F 1 "100n" H 10675 3950 30  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 10650 4000 60  0001 C CNN
-F 3 "" H 10650 4000 60  0000 C CNN
-	1    10650 4000
-	1    0    0    -1  
-$EndComp
-$Comp
 L VDD #PWR012
 U 1 1 54E51682
 P 10650 3850
@@ -357,9 +335,9 @@ F 3 "" H 10450 4000 60  0000 C CNN
 $EndComp
 Text GLabel 6450 4050 2    47   Input ~ 0
 spi0_cs_n
-Text GLabel 6450 4350 2    47   Input ~ 0
-spi0_sck
 Text GLabel 6450 4250 2    47   Input ~ 0
+spi0_sck
+Text GLabel 6450 4350 2    47   Input ~ 0
 spi0_mosi
 Text GLabel 6450 4150 2    47   Input ~ 0
 spi0_miso
@@ -851,17 +829,6 @@ F 3 "" H 7600 5550 30  0000 C CNN
 	1    7600 5550
 	1    0    0    -1  
 $EndComp
-$Comp
-L +BATT #PWR020
-U 1 1 54E62FD1
-P 7600 4700
-F 0 "#PWR020" H 7600 4650 20  0001 C CNN
-F 1 "+BATT" H 7600 4800 30  0000 C CNN
-F 2 "" H 7600 4700 60  0000 C CNN
-F 3 "" H 7600 4700 60  0000 C CNN
-	1    7600 4700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7600 4800 7600 4700
 Wire Wire Line
@@ -872,10 +839,6 @@ Wire Wire Line
 	7450 5900 7600 5900
 Wire Wire Line
 	7600 5900 7600 5800
-Text GLabel 6900 4100 2    47   Input ~ 0
-~led
-Text Notes 7700 4750 0    39   ~ 0
-Is it safe to use BAT here?
 $Comp
 L XTAL-4 X1
 U 1 1 54E6667C
@@ -924,10 +887,10 @@ F 3 "" H 2050 3200 39  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR021
+L GND #PWR020
 U 1 1 54E777A7
 P 1600 3600
-F 0 "#PWR021" H 1600 3600 30  0001 C CNN
+F 0 "#PWR020" H 1600 3600 30  0001 C CNN
 F 1 "GND" H 1600 3530 30  0001 C CNN
 F 2 "" H 1600 3600 60  0000 C CNN
 F 3 "" H 1600 3600 60  0000 C CNN
@@ -982,10 +945,10 @@ Wire Wire Line
 	2650 3400 2650 3350
 Connection ~ 2650 3350
 $Comp
-L GND #PWR022
+L GND #PWR021
 U 1 1 54E78011
 P 2650 3650
-F 0 "#PWR022" H 2650 3650 30  0001 C CNN
+F 0 "#PWR021" H 2650 3650 30  0001 C CNN
 F 1 "GND" H 2650 3580 30  0001 C CNN
 F 2 "" H 2650 3650 60  0000 C CNN
 F 3 "" H 2650 3650 60  0000 C CNN
@@ -1025,4 +988,19 @@ Wire Wire Line
 	6700 3550 6350 3550
 Wire Wire Line
 	6700 3650 6350 3650
+Text GLabel 6550 2550 2    47   Input ~ 0
+~led
+Wire Wire Line
+	6350 2550 6550 2550
+$Comp
+L VDD #PWR022
+U 1 1 54EA2926
+P 7600 4700
+F 0 "#PWR022" H 7600 4800 30  0001 C CNN
+F 1 "VDD" H 7600 4810 30  0000 C CNN
+F 2 "" H 7600 4700 60  0000 C CNN
+F 3 "" H 7600 4700 60  0000 C CNN
+	1    7600 4700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
