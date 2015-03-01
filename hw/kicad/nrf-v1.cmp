@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-24 BZR 5221)-product   date = Sun Feb 22 21:50:27 2015
+Cmp-Mod V01 Created by Cvpcb (2014-10-24 BZR 5221)-product   date = Sun Mar  1 21:59:10 2015
 
 BeginCmp
 TimeStamp = /54E7762F;
@@ -190,10 +190,10 @@ IdModule  = project:Bosch-LGA-12_(2.00x2.00);
 EndCmp
 
 BeginCmp
-TimeStamp = /54E4F2ED;
+TimeStamp = /54F36F0A;
 Reference = U5;
-ValeurCmp = SI7053;
-IdModule  = project:Silabs-DFN-6_(3.00x3.00);
+ValeurCmp = STSC1;
+IdModule  = project:Sensirion-DFN-4_(2.0x2.0);
 EndCmp
 
 BeginCmp
