@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-24 BZR 5221)-product   date = Fri Feb 20 20:31:20 2015
+Cmp-Mod V01 Created by Cvpcb (2014-10-24 BZR 5221)-product   date = Sun Feb 22 21:50:27 2015
 
 BeginCmp
 TimeStamp = /54E7762F;
@@ -25,56 +25,56 @@ BeginCmp
 TimeStamp = /54E5282E;
 Reference = C2;
 ValeurCmp = 12p;
-IdModule  = Capacitors_SMD:C_0402;
+IdModule  = project:IPC-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E528BD;
 Reference = C3;
 ValeurCmp = 12p;
-IdModule  = Capacitors_SMD:C_0402;
+IdModule  = project:IPC-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E52F91;
 Reference = C4;
 ValeurCmp = 12p;
-IdModule  = Capacitors_SMD:C_0402;
+IdModule  = project:IPC-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E52F97;
 Reference = C5;
 ValeurCmp = 12p;
-IdModule  = Capacitors_SMD:C_0402;
+IdModule  = project:IPC-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E51ED7;
 Reference = C6;
 ValeurCmp = 100n;
-IdModule  = Capacitors_SMD:C_0402;
+IdModule  = project:IPC-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E52011;
 Reference = C7;
 ValeurCmp = 100n;
-IdModule  = Capacitors_SMD:C_0402;
+IdModule  = project:IPC-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E5245F;
 Reference = C8;
 ValeurCmp = 1n;
-IdModule  = Capacitors_SMD:C_0402;
+IdModule  = project:IPC-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E5203A;
 Reference = C9;
 ValeurCmp = 100n;
-IdModule  = Capacitors_SMD:C_0402;
+IdModule  = project:IPC-0402;
 EndCmp
 
 BeginCmp
@@ -88,56 +88,42 @@ BeginCmp
 TimeStamp = /54E52118;
 Reference = C11;
 ValeurCmp = 47n;
-IdModule  = Capacitors_SMD:C_0402;
+IdModule  = project:IPC-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E516C7;
 Reference = C12;
 ValeurCmp = 100n;
-IdModule  = Capacitors_SMD:C_0402;
+IdModule  = project:IPC-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E50761;
 Reference = C13;
 ValeurCmp = 100n;
-IdModule  = Capacitors_SMD:C_0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /54E51678;
-Reference = C14;
-ValeurCmp = 100n;
-IdModule  = Capacitors_SMD:C_0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /54E506AF;
-Reference = C15;
-ValeurCmp = 100n;
-IdModule  = Capacitors_SMD:C_0402;
+IdModule  = project:IPC-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E77BA4;
 Reference = C16;
 ValeurCmp = DNP;
-IdModule  = Capacitors_SMD:C_0402;
+IdModule  = project:IPC-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E77EEF;
 Reference = C17;
 ValeurCmp = DNP;
-IdModule  = Capacitors_SMD:C_0402;
+IdModule  = project:IPC-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E53876;
 Reference = D1;
 ValeurCmp = LED;
-IdModule  = LEDs:LED-0603;
+IdModule  = project:IPC-0402;
 EndCmp
 
 BeginCmp
@@ -158,21 +144,21 @@ BeginCmp
 TimeStamp = /54E62B02;
 Reference = R1;
 ValeurCmp = R;
-IdModule  = Resistors_SMD:R_0402;
+IdModule  = project:IPC-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E50FDF;
 Reference = R2;
 ValeurCmp = 4k7;
-IdModule  = Resistors_SMD:R_0402;
+IdModule  = project:IPC-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E50D7D;
 Reference = R3;
 ValeurCmp = 4k7;
-IdModule  = Resistors_SMD:R_0402;
+IdModule  = project:IPC-0402;
 EndCmp
 
 BeginCmp

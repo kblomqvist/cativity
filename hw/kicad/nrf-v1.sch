@@ -1003,4 +1003,6 @@ F 3 "" H 7600 4700 60  0000 C CNN
 	1    7600 4700
 	1    0    0    -1  
 $EndComp
+Text Notes 1600 5650 0    394  ~ 0
+VBAT ADC
 $EndSCHEMATC
