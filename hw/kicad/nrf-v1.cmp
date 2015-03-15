@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-24 BZR 5221)-product   date = Sun Mar  1 21:59:10 2015
+Cmp-Mod V01 Created by Cvpcb (2014-10-24 BZR 5221)-product   date = Sun Mar 15 20:41:56 2015
 
 BeginCmp
 TimeStamp = /54E7762F;
@@ -18,7 +18,7 @@ BeginCmp
 TimeStamp = /54E4FD79;
 Reference = C1;
 ValeurCmp = 2u2;
-IdModule  = Capacitors_SMD:C_0603;
+IdModule  = project:IPC-0603;
 EndCmp
 
 BeginCmp
@@ -81,7 +81,7 @@ BeginCmp
 TimeStamp = /54E500A4;
 Reference = C10;
 ValeurCmp = 2u2;
-IdModule  = Capacitors_SMD:C_0603;
+IdModule  = project:IPC-0603;
 EndCmp
 
 BeginCmp
@@ -130,14 +130,7 @@ BeginCmp
 TimeStamp = /54E4FE86;
 Reference = L1;
 ValeurCmp = INDUCTOR_SMALL;
-IdModule  = Resistors_SMD:R_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /54E53621;
-Reference = P1;
-ValeurCmp = CONN_02X05;
-IdModule  = ;
+IdModule  = project:IPC-0805;
 EndCmp
 
 BeginCmp
@@ -159,6 +152,55 @@ TimeStamp = /54E50D7D;
 Reference = R3;
 ValeurCmp = 4k7;
 IdModule  = project:IPC-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F37B40;
+Reference = R4;
+ValeurCmp = 100k;
+IdModule  = project:IPC-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F37CA6;
+Reference = R5;
+ValeurCmp = 120k;
+IdModule  = project:IPC-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5505FB63;
+Reference = TP1;
+ValeurCmp = Testpoint;
+IdModule  = project:TP_0.6;
+EndCmp
+
+BeginCmp
+TimeStamp = /5505FC30;
+Reference = TP2;
+ValeurCmp = Testpoint;
+IdModule  = project:TP_0.6;
+EndCmp
+
+BeginCmp
+TimeStamp = /55062A77;
+Reference = TP3;
+ValeurCmp = Testpoint;
+IdModule  = project:TP_0.6;
+EndCmp
+
+BeginCmp
+TimeStamp = /550631E2;
+Reference = TP4;
+ValeurCmp = Testpoint;
+IdModule  = project:TP_0.6;
+EndCmp
+
+BeginCmp
+TimeStamp = /5505D645;
+Reference = TP5;
+ValeurCmp = Testpoint;
+IdModule  = project:TP_0.6;
 EndCmp
 
 BeginCmp
