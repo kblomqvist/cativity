@@ -550,17 +550,6 @@ F 3 "" H 9450 1850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BATTERY BT1
-U 1 1 54E62225
-P 800 7000
-F 0 "BT1" H 800 7200 50  0000 C CNN
-F 1 "BATTERY" H 800 6810 50  0000 C CNN
-F 2 "project:Keystone-3003" H 800 7000 60  0001 C CNN
-F 3 "" H 800 7000 60  0000 C CNN
-	1    800  7000
-	0    1    1    0   
-$EndComp
-$Comp
 L R R1
 U 1 1 54E62B02
 P 7600 5550
@@ -1207,4 +1196,15 @@ Wire Wire Line
 Text GLabel 7300 2550 2    47   Input ~ 0
 bootloader
 Connection ~ 7150 2550
+$Comp
+L BATTERY BT1
+U 1 1 54E62225
+P 800 7000
+F 0 "BT1" H 800 7200 50  0000 C CNN
+F 1 "BATTERY" H 800 6810 50  0000 C CNN
+F 2 "project:Keystone-3003" H 800 7000 60  0001 C CNN
+F 3 "" H 800 7000 60  0000 C CNN
+	1    800  7000
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
