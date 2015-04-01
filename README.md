@@ -1,4 +1,4 @@
-# cativity
+# Cativity
 
 ## HW Errata
 - ANT footprint
