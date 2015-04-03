@@ -17,11 +17,7 @@ erase.set_defaults(command="erase")
 flash = subparsers.add_parser("flash", help="program the flash")
 flash.set_defaults(command="flash")
 flash.add_argument("program", help="binary file containing the program")
-
-softdevice = subparsers.add_parser("softdevice", help="program the softdevice")
-softdevice.set_defaults(command="softdevice")
-softdevice.add_argument("uicr")
-softdevice.add_argument("main")
+flash.add_argument("addr", help="region start address in hex")
 
 ###############################################################################
 
@@ -49,20 +45,9 @@ def create_tmp_script(name, content):
 def erase():
 	return exec_jlinkexe("erase.jlink", "scripts")
 
-def flash(program):
-	if os.environ["USE_SOFTDEVICE"] == "blank":
-		addr = hex(0)
-	else:
-		addr = hex(0x00016000)
-
+def flash(program, addr):
 	script_name = "flash.jlink"
 	content = read_script_file(script_name).format(program=program, addr=addr)
-	create_tmp_script(script_name, content)
-	return exec_jlinkexe(script_name)
-
-def softdevice(uicr, main):
-	script_name = "softdevice.jlink"
-	content = read_script_file(script_name).format(uicr=uicr, main=main)
 	create_tmp_script(script_name, content)
 	return exec_jlinkexe(script_name)
 
