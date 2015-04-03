@@ -2,15 +2,13 @@
 
 ## SW Usage
 
-Softdevice s110 has been used by default, see Makefile.projet. So at first flash the softdevice binary:
+nRF51 s110 softdevice is used by default (see `Makefile.project`), so at first you need to flash the softdevice binary:
 
 ```
 make softdevice
 ```
 
-The chip gets erased and the softdevice is placed into the beginning of the flash.
-
-Now you can compile the user program. And flash/upload it into the correct flash region:
+The above command erase the chip and programs the softdevice binary appropriately. Now can compile the user program and flash/upload it:
 
 ```
 make
