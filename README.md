@@ -8,7 +8,7 @@ nRF51 s110 softdevice is used by default (see `Makefile.project`), so at first y
 make softdevice
 ```
 
-The above command erase the chip and programs the softdevice binary appropriately. Now can compile the user program and flash/upload it:
+The above command erase the chip and programs the softdevice binary appropriately. Now compile the user program and flash/upload it:
 
 ```
 make
