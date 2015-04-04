@@ -17,13 +17,13 @@ make upload
 
 ## Example/Test SW
 
-Use segger.py script directly to flash `.bin` binaries.
+Use `segger.py` script directly to flash `.bin` binaries.
 
-### Proximit/RSSI test
+### Proximity/RSSI test
 
 ```
 export BUILD_PATH=./build
-python segger.py examples/flash ble_peripheral_proximity_nrf518222_xxaa_s110.bin 0x18000
+python segger.py flash examples/ble_peripheral_proximity_nrf518222_xxaa_s110.bin 0x18000
 ```
 
 ## HW Errata
