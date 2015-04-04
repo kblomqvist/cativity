@@ -23,6 +23,7 @@ Use `segger.py` script directly to flash `.bin` binaries.
 
 ```
 export BUILD_PATH=./build
+export JLINK_PATH=/usr/bin
 python segger.py flash examples/ble_peripheral_proximity_nrf518222_xxaa_s110.bin 0x18000
 ```
 
