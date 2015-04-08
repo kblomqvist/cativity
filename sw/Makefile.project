@@ -24,4 +24,8 @@ USE_SOFTDEVICE	= s110
 PROJECT_TARGET			= cativity
 
 PROJECT_C_SOURCE_PATHS	= src $(SDK_COMPONENTS_PATH)/drivers_nrf/hal
-PROJECT_C_SOURCE_FILES	= main.c nrf_delay.c
+PROJECT_C_SOURCE_PATHS += $(SDK_COMPONENTS_PATH)/drivers_nrf/twi_master
+PROJECT_C_SOURCE_FILES	= main.c nrf_delay.c twi_hw_master.c
+PROJECT_INCLUDE_PATHS   = src
+PROJECT_INCLUDE_PATHS  += $(SDK_COMPONENTS_PATH)/drivers_nrf/twi_master
+
