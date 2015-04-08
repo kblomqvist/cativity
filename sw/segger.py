@@ -21,12 +21,11 @@ flash.add_argument("addr", help="region start address in hex")
 
 ###############################################################################
 
-jlinkexe = "LD_LIBRARY_PATH={path}:$LD_LIBRARY_PATH {path}/JLinkExe {script}"
+jlinkexe = "JLinkExe -if SWD -device nrf51822 -speed 1000 {script}"
 
 def exec_jlinkexe(script, path=os.environ["BUILD_PATH"]):
 	try:
 		print subprocess.check_output(jlinkexe.format(
-						path=os.environ["JLINK_PATH"],
 						script=os.path.join(path, script)
 						), shell=True)
 	except subprocess.CalledProcessError, e:
