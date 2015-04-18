@@ -36,4 +36,5 @@ hw/kicad/*kicad_pcb-bak
 hw/kicad/$*
 
 # SW build files
-sw/build/
+/sw/build/
+/sw/nrf51/**/_build
