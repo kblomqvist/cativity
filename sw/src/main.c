@@ -2,6 +2,7 @@
 #include <stdint.h>
 #include "nrf_delay.h"
 #include "nrf_gpio.h"
+#include "spi_master.h"
 
 #include "twi_master.h"
 
