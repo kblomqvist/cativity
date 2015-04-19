@@ -38,7 +38,7 @@ INCLUDE_PATHS	+= $(PROJECT_INCLUDE_PATHS)
 INCLUDES		= $(addprefix -I, $(INCLUDE_PATHS))
 
 # Compiler flags
-CFLAGS = -mcpu=$(CPU) -mthumb -mfloat-abi=soft -Wall -Werror -c
+CFLAGS = -mcpu=$(CPU) -mthumb -mfloat-abi=soft -Wall -Werror -c -std=gnu99
 CFLAGS += -D$(DEVICE_FAMILY) -D$(SOC) -D$(BOARD)
 CFLAGS += $(PROJECT_CFLAGS)
 CFLAGS += $(INCLUDES)
