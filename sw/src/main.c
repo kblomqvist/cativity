@@ -6,6 +6,16 @@
 
 #include "twi_master.h"
 
+#define SPI0_SCK  10
+#define SPI0_MISO 9
+#define SPI0_MOSI 11
+#define SPI0_CSN  8
+
+#define SPI1_SCK  6
+#define SPI1_MISO 5
+#define SPI1_MOSI 4
+#define SPI1_CSN  30
+
 bool stsc1_detect(void)
 {
 	const uint8_t address = 0x4A << 1;
@@ -26,10 +36,27 @@ bool stsc1_detect(void)
 	return true;
 }
 
+void spi_master_init(NRF_SPI_Type *base, int sck, int miso, int mosi)
+{
+	nrf_gpio_cfg_input(miso, NRF_GPIO_PIN_NOPULL);
+	nrf_gpio_cfg_output(mosi);
+	nrf_gpio_cfg_output(sck);
+
+	set_spi_io(base, sck, miso, mosi);
+	set_spi_mode(base, SPI_MODE_0);
+	set_spi_clock(base, SPI_CLOCK_1M);
+}
+
 int main(void){
 	nrf_gpio_cfg_output(17);
 	
 	twi_master_init();
+
+	spi_master_init(NRF_SPI0, SPI0_SCK, SPI0_MISO, SPI0_MOSI);
+	nrf_gpio_cfg_output(SPI0_CSN);
+
+	spi_master_init(NRF_SPI1, SPI1_SCK, SPI1_MISO, SPI1_MOSI);
+	nrf_gpio_cfg_output(SPI1_CSN);
 
 	bool temp_present = stsc1_detect();
 
